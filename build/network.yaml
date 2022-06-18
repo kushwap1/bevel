@@ -185,9 +185,9 @@ network:
       # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
       # the cluster has already been created.
       k8s:
-        region: "cluster_region"
-        context: "cluster_context"
-        config_file: "/home/bevel/build/config"
+        region: "us-central1-c"
+        context: "gke_playground-s-11-b9cc06f7_us-central1-c_cluster-1"
+        config_file: "/home/cloud_user_p_54d02e39/bevel/build/config"
 
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
@@ -281,9 +281,9 @@ network:
       # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
       # the cluster has already been created.
       k8s:
-        region: "cluster_region"
-        context: "cluster_context"
-        config_file: "/home/bevel/build/config"
+        region: "us-central1-c"
+        context: "gke_playground-s-11-b9cc06f7_us-central1-c_cluster-1"
+        config_file: "/home/cloud_user_p_54d02e39/bevel/build/config"
 
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
