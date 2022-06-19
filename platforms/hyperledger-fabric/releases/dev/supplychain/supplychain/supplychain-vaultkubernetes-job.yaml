@@ -22,7 +22,7 @@ spec:
     vault:
       reviewer_service: vault-reviewer
       role: vault-role
-      address: http://35.193.215.57:8200/
+      address: http://35.238.243.34:8200/
       authpath: demo-fabricsupplychain-net-auth
       policy: vault-crypto-orderer-supplychain-net-ro
       secret_path: secretsv2
@@ -30,4 +30,4 @@ spec:
       imagesecretname: regcred
     
     k8s:
-      kubernetes_url: https://34.70.36.238
+      kubernetes_url: https://34.132.110.169
